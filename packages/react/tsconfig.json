@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "target": "es5",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@theme/*": [
+        "../theme"
+      ],
+      "@app/*": [
+        "./src/app/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

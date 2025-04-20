@@ -1,0 +1,25 @@
+{
+    "name": "@shay/react",
+    "version": "0.1.0",
+    "description": "UI components with Tailwind",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc && postcss src/styles/global.css -o dist/styles.css",
+        "dev": "bunx tsc --watch & postcss src/styles/global.css -o dist/styles.css --watch"
+    },
+    "scripts2": {
+        "build": "tsc && npx @tailwindcss/cli -i ./src/styles/global.css -o ./dist/styles/tailwind.css",
+        "dev": "bunx tsc --watch & npx @tailwindcss/cli -i ./src/styles/global.css -o ./dist/styles/tailwind.css --watch --watch"
+    },
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.4",
+        "@tailwindcss/postcss": "^4.1.4",
+        "@types/bun": "latest",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^4.1.4"
+    },
+    "peerDependencies": {
+        "typescript": "^5.8.3"
+    }
+}

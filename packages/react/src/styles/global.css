@@ -1,0 +1,7 @@
+/* @import "tailwindcss"; */
+/* src/styles/global.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* @import '@shay/theme/themes.css'; */
+@import '../../../theme/themes.css';

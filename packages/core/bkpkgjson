@@ -1,0 +1,17 @@
+{
+  "name": "@shay/core",
+  "version": "0.1.0",
+  "description": "UI components with Tailwind",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "bunx tsc --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
